@@ -8,9 +8,9 @@ const requestHandler = (request, response) => {
 }
 
 const server = http.createServer(requestHandler)
-
+//useless comment
 server.listen(port, (err) => {
-  if (err) {
+  if (err) {    
     return console.log('something bad happened', err)
   }
 
